@@ -502,5 +502,5 @@ extension KeyboardShortcuts {
 }
 
 extension Notification.Name {
-	static let shortcutByNameDidChange = Self("KeyboardShortcuts_shortcutByNameDidChange")
+	public static let shortcutByNameDidChange = Self("KeyboardShortcuts_shortcutByNameDidChange")
 }
